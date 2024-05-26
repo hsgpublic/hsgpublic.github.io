@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>About Me - hsg 개발로그</title>
@@ -9,14 +9,14 @@
 		<meta property="og:title" content="About Me" />
 <meta property="og:description" content="경력. 2022.06 ~ 1. iOS 앱 리치 텍스트 에디터 개발. - Swift, NSAttributedString. - Ordered list, Bulleted list, Blockqoute, Code block 지원. 2. iOS 앱 아키텍처 개선. - Swift, Combine, iOS Framework, HTTP API. - 프로젝트에 포함된 HTTP API 코드를 iOS Framework로 분리. - Repository 레이어 도입으로 프로젝트 내의 HTTP API 관심사 분리. 3. iOS 앱 빌드/배포 자동화. - XCode Command Line Tools를 이용해 빌드/배포 자동화. - Jenkins로 쉬운 GUI 접근성 제공, 권한 관리, 이력 관리." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hsgpublic.github.io/about/me/" /><meta property="article:section" content="about" />
+<meta property="og:url" content="http://localhost:1313/about/me/" /><meta property="article:section" content="about" />
 <meta property="article:published_time" content="2022-10-31T21:47:41+09:00" />
 <meta property="article:modified_time" content="2022-10-31T21:47:41+09:00" />
 
 		<meta itemprop="name" content="About Me">
 <meta itemprop="description" content="경력. 2022.06 ~ 1. iOS 앱 리치 텍스트 에디터 개발. - Swift, NSAttributedString. - Ordered list, Bulleted list, Blockqoute, Code block 지원. 2. iOS 앱 아키텍처 개선. - Swift, Combine, iOS Framework, HTTP API. - 프로젝트에 포함된 HTTP API 코드를 iOS Framework로 분리. - Repository 레이어 도입으로 프로젝트 내의 HTTP API 관심사 분리. 3. iOS 앱 빌드/배포 자동화. - XCode Command Line Tools를 이용해 빌드/배포 자동화. - Jenkins로 쉬운 GUI 접근성 제공, 권한 관리, 이력 관리."><meta itemprop="datePublished" content="2022-10-31T21:47:41+09:00" />
 <meta itemprop="dateModified" content="2022-10-31T21:47:41+09:00" />
-<meta itemprop="wordCount" content="492">
+<meta itemprop="wordCount" content="560">
 <meta itemprop="keywords" content="" />
 		<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="About Me"/>
 <meta name="twitter:description" content="경력. 2022.06 ~ 1. iOS 앱 리치 텍스트 에디터 개발. - Swift, NSAttributedString. - Ordered list, Bulleted list, Blockqoute, Code block 지원. 2. iOS 앱 아키텍처 개선. - Swift, Combine, iOS Framework, HTTP API. - 프로젝트에 포함된 HTTP API 코드를 iOS Framework로 분리. - Repository 레이어 도입으로 프로젝트 내의 HTTP API 관심사 분리. 3. iOS 앱 빌드/배포 자동화. - XCode Command Line Tools를 이용해 빌드/배포 자동화. - Jenkins로 쉬운 GUI 접근성 제공, 권한 관리, 이력 관리."/>
@@ -30,18 +30,6 @@
 	
 
 	<link rel="shortcut icon" href="/favicon.ico">
-		
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R6FEGR9K4Q"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-R6FEGR9K4Q', { 'anonymize_ip': false });
-}
-</script>
-
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -125,10 +113,22 @@ if (!doNotTrack) {
   - Jenkins로 쉬운 GUI 접근성 제공, 권한 관리, 이력 관리.
   - 사내 배포는 Firebase App Distribution 이용.
   - AWS Mac mini M1 Instance로 빌드 구성.
+
+4. iOS 앱 전자결재 개발.
+  - 휴가신청서, 지출결의서, 권한신청서 등의 마크다운 결재 양식 및 에디터 제공.
+  - 결재라인 설정 및 진행단계별 승인/반려 이력 제공.
+  - 문서 공유, 댓글, 첨부파일 등의 부가 기능 지원.
+
+5. iOS 앱 리뉴얼.
+  - Swift, Combine, async await, MVVM.
+  - 플랜 세분화 및 사용자 편의성 개선.
+  - Repository layer를 remote, local로 구분하고 database에 확장 적용.
+  - MVC 기반 코드를 MVVM으로 전환.
+  - 17개 다국어 지원.
 </code></pre><p> </p>
 <h3 id="201810--202205">2018.10 ~ 2022.05</h3>
 <pre tabindex="0"><code>1. 쇼핑몰 iOS 앱 신규 개발, 런칭, 운영.
-  - 적용기술: Swift, VIPER Architecture, HTTP-API, 암복호화, FCM.
+  - Swift, VIPER Architecture, HTTP-API, 암복호화, FCM.
   - 1인 전담 신규 개발, 서비스 오픈.
   - 오픈 이후 팀원 교육.
 
@@ -224,7 +224,7 @@ if (!doNotTrack) {
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
 		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
 		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="https://hsgpublic.github.io/">
+		<input type="hidden" name="sitesearch" value="http://localhost:1313/">
 	</form>
 </div>
 <div class="widget-recent widget">
