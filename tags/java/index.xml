@@ -2,17 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on hsg 개발로그</title>
-    <link>http://localhost:1313/tags/java/</link>
+    <link>https://hsgpublic.github.io/tags/java/</link>
     <description>Recent content in Java on hsg 개발로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
+    <managingEditor>hsgpublic@gmail.com (hsg)</managingEditor>
+    <webMaster>hsgpublic@gmail.com (hsg)</webMaster>
     <lastBuildDate>Mon, 08 Feb 2021 22:08:44 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hsgpublic.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java 설치 및 VSCode 설정</title>
-      <link>http://localhost:1313/posts/4/</link>
-      <pubDate>Mon, 08 Feb 2021 22:08:44 +0900</pubDate>
-      <guid>http://localhost:1313/posts/4/</guid>
+      <link>https://hsgpublic.github.io/posts/4/</link>
+      <pubDate>Mon, 08 Feb 2021 22:08:44 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/posts/4/</guid>
       <description>구형 맥북을 팔고 임시로 구입한 노트북에다 리눅스를 설치해 사용하느라 바로 전 포스트까지는 리눅스 기준으로 작성했지만, 맥북 에어 M1을 구입했으니 이제부터 macOS 기준으로 작성합니다. 하지만, 개발환경이 VSCode로 동일하니 이질감이 없을 것입니다. 1. Java 설치. 맥, 리눅스, 윈도우 사용자는 https://adoptopenjdk.net 에서 다운받아 설치하면 됩니다.&#xA;맥에서는 아래와 같이 설치할 수도 있습니다.&#xA;$ brew install openjdk ## 또는 $ port install openjdk 리눅스에서는 아래와 같이 설치할 수도 있습니다.&#xA;$ snap install openjdk 2. VSCode 설정.</description>
     </item>
   </channel>

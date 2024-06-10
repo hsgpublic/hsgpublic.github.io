@@ -2,59 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on hsg 개발로그</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://hsgpublic.github.io/tags/</link>
     <description>Recent content in Tags on hsg 개발로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 09 Sep 2021 22:06:57 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>hsgpublic@gmail.com (hsg)</managingEditor>
+    <webMaster>hsgpublic@gmail.com (hsg)</webMaster>
+    <lastBuildDate>Sun, 26 May 2024 09:29:27 +0900</lastBuildDate>
+    <atom:link href="https://hsgpublic.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dart</title>
-      <link>http://localhost:1313/tags/dart/</link>
-      <pubDate>Thu, 09 Sep 2021 22:06:57 +0900</pubDate>
-      <guid>http://localhost:1313/tags/dart/</guid>
+      <title>환경설정</title>
+      <link>https://hsgpublic.github.io/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</link>
+      <pubDate>Sun, 26 May 2024 09:29:27 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</guid>
       <description></description>
     </item>
     <item>
-      <title>환경설정</title>
-      <link>http://localhost:1313/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</link>
-      <pubDate>Thu, 09 Sep 2021 22:06:57 +0900</pubDate>
-      <guid>http://localhost:1313/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</guid>
+      <title>Dart</title>
+      <link>https://hsgpublic.github.io/tags/dart/</link>
+      <pubDate>Thu, 09 Sep 2021 22:06:57 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/tags/dart/</guid>
       <description></description>
     </item>
     <item>
       <title>Flutter</title>
-      <link>http://localhost:1313/tags/flutter/</link>
-      <pubDate>Tue, 07 Sep 2021 22:09:10 +0900</pubDate>
-      <guid>http://localhost:1313/tags/flutter/</guid>
+      <link>https://hsgpublic.github.io/tags/flutter/</link>
+      <pubDate>Tue, 07 Sep 2021 22:09:10 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/tags/flutter/</guid>
       <description></description>
     </item>
     <item>
       <title>Echo Framework</title>
-      <link>http://localhost:1313/tags/echo-framework/</link>
-      <pubDate>Tue, 09 Feb 2021 21:19:23 +0900</pubDate>
-      <guid>http://localhost:1313/tags/echo-framework/</guid>
+      <link>https://hsgpublic.github.io/tags/echo-framework/</link>
+      <pubDate>Tue, 09 Feb 2021 21:19:23 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/tags/echo-framework/</guid>
       <description></description>
     </item>
     <item>
       <title>Go</title>
-      <link>http://localhost:1313/tags/go/</link>
-      <pubDate>Tue, 09 Feb 2021 21:19:23 +0900</pubDate>
-      <guid>http://localhost:1313/tags/go/</guid>
+      <link>https://hsgpublic.github.io/tags/go/</link>
+      <pubDate>Tue, 09 Feb 2021 21:19:23 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/tags/java/</link>
-      <pubDate>Mon, 08 Feb 2021 22:08:44 +0900</pubDate>
-      <guid>http://localhost:1313/tags/java/</guid>
+      <link>https://hsgpublic.github.io/tags/java/</link>
+      <pubDate>Mon, 08 Feb 2021 22:08:44 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Framework</title>
-      <link>http://localhost:1313/tags/spring-framework/</link>
-      <pubDate>Mon, 08 Feb 2021 22:08:44 +0900</pubDate>
-      <guid>http://localhost:1313/tags/spring-framework/</guid>
+      <link>https://hsgpublic.github.io/tags/spring-framework/</link>
+      <pubDate>Mon, 08 Feb 2021 22:08:44 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/tags/spring-framework/</guid>
       <description></description>
     </item>
   </channel>

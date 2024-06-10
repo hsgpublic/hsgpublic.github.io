@@ -2,24 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on hsg 개발로그</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://hsgpublic.github.io/projects/</link>
     <description>Recent content in Projects on hsg 개발로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
+    <managingEditor>hsgpublic@gmail.com (hsg)</managingEditor>
+    <webMaster>hsgpublic@gmail.com (hsg)</webMaster>
     <lastBuildDate>Tue, 30 Apr 2024 09:06:25 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hsgpublic.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>근거리 채팅 앱 개발</title>
-      <link>http://localhost:1313/projects/2/1/</link>
-      <pubDate>Tue, 30 Apr 2024 09:06:25 +0900</pubDate>
-      <guid>http://localhost:1313/projects/2/1/</guid>
+      <link>https://hsgpublic.github.io/projects/2/1/</link>
+      <pubDate>Tue, 30 Apr 2024 09:06:25 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/projects/2/1/</guid>
       <description>1. 서론. 포트폴리오 겸 앱 서비스 겸 근거리 채팅 앱을 개발합니다.&#xA;2. 목차. 프로젝트 완료 시까지 업데이트 됩니다.&#xA;근거리 채팅 앱 분석. 요구사항 정의. 유스케이스 작성. 도메인 설계. 모바일 앱 데이터베이스 설계. 모바일 앱 아키텍처 설계. 모바일 앱 화면 설계. 개발환경 구축. 모바일 앱 개발. 테스트. 배포. </description>
     </item>
     <item>
       <title>게시판 설계부터 개발까지</title>
-      <link>http://localhost:1313/projects/1/1/</link>
-      <pubDate>Wed, 02 Nov 2022 21:30:59 +0900</pubDate>
-      <guid>http://localhost:1313/projects/1/1/</guid>
+      <link>https://hsgpublic.github.io/projects/1/1/</link>
+      <pubDate>Wed, 02 Nov 2022 21:30:59 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/projects/1/1/</guid>
       <description>1. 서론. 앱 포함 네이티브 프로그램 위주로 개발해 오다 보니 도메인으로부터 시작되는 서비스의 전체 설계에 대한 관점을 강화할 필요가 있어 가장 기본적인 게시판 프로젝트를 시작하게 되었습니다.&#xA;라고 썼지만, 그냥 별 생각 없이 시작합니다.&#xA;2. 목차. 프로젝트 완료 시까지 업데이트 됩니다.&#xA;게시판 서비스 분석. 요구사항 정의. 유스케이스 작성. 정보구조 정의. 기능 및 정책 정의. 서버 도메인 설계. 데이터베이스 설계. 서버 HTTP API 설계. 서버 아키텍처 설계. 모바일 아키텍처 설계. 모바일 앱 화면 설계.</description>
     </item>
   </channel>
