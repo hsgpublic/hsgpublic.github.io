@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>VSCode - hsg의 IT 로그</title>
+	<title>Gitea on Docker - hsg의 IT 로그</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="VSCode" />
-<meta property="og:description" content="hsg의 IT 로그" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://hsgpublic.github.io/categories/vscode/" />
+		<meta property="og:title" content="Gitea on Docker" />
+<meta property="og:description" content="1. 서론. 2. Gitea on Docker. " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/posts/9/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-06-10T17:15:11+09:00" />
+<meta property="article:modified_time" content="2024-06-10T17:15:11+09:00" />
 
-		<meta itemprop="name" content="VSCode">
-<meta itemprop="description" content="hsg의 IT 로그">
-		<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="VSCode"/>
-<meta name="twitter:description" content="hsg의 IT 로그"/>
+		<meta itemprop="name" content="Gitea on Docker">
+<meta itemprop="description" content="1. 서론. 2. Gitea on Docker. "><meta itemprop="datePublished" content="2024-06-10T17:15:11+09:00" />
+<meta itemprop="dateModified" content="2024-06-10T17:15:11+09:00" />
+<meta itemprop="wordCount" content="6">
+<meta itemprop="keywords" content="환경설정,Gitea," />
+		<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Gitea on Docker"/>
+<meta name="twitter:description" content="1. 서론. 2. Gitea on Docker. "/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -23,21 +28,8 @@
 
 	<link rel="stylesheet" href="/css/style.css">
 	
-	<link rel="alternate" type="application/rss+xml" href="/categories/vscode/index.xml" title="hsg의 IT 로그">
 
 	<link rel="shortcut icon" href="/favicon.ico">
-		
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R6FEGR9K4Q"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-R6FEGR9K4Q', { 'anonymize_ip': false });
-}
-</script>
-
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -94,74 +86,77 @@ if (!doNotTrack) {
 		<div class="wrapper flex">
 			<div class="primary">
 			
-<main class="main list" role="main">
-	<header class="main__header">
-		<h1 class="main__title">VSCode</h1>
-	</header><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/3/" rel="bookmark">
-			Go 설치 및 VSCode 설정
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Gitea on Docker</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">hsg</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2020-12-20T11:15:43&#43;09:00">2020-12-20</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/vscode/" rel="category">VSCode</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2024-06-10T17:15:11&#43;09:00">2024-06-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/docker/" rel="category">Docker</a>
 	</span>
 </div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		1. Go 설치. 참고: https://golang.org/doc/install 맥과 윈도우에서는 설치파일을 다운받아 설치하면 됩니다.
-리눅스에서는 실행파일이 압축파일로 되어 있어 특정 디렉토리에 풀고 PATH를 설정해 주면 됩니다.
-## 실행파일을 다운받아 /usr/local에 압축해제 하면 /usr/local/go 디렉토리가 생성됩니다. $ sudo tar -C /usr/local -xzf https://golang.org/dl/go1.15.6.linux-amd64.tar.gz ## Go 실행 PATH 추가. $ echo &#39;PATH=&#34;$PATH:/usr/local/go/bin&#34;&#39; &gt;&gt; ~/.profile ## .profile 설정 재로딩. $ source .profile Go 설치 확인
-## Go 실행 확인. $ go version go version go1.15.6 linux/amd64 2.
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2/" rel="bookmark">
-			Visual Studio Code (VSCode)
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">hsg</span>
+		</header>
+		<div class="content post__content clearfix">
+			<h2 id="1-서론">1. 서론.</h2>
+<p> </p>
+<h2 id="2-gitea-on-docker">2. Gitea on Docker.</h2>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M4 0h8s2 0 4 2l15 15s2 2 0 4L21 31s-2 2-4 0L2 16s-2-2-2-4V3s0-3 4-3m3 10a3 3 0 0 0 0-6 3 3 0 0 0 0 6"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/" rel="tag">환경설정</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/gitea/" rel="tag">Gitea</a>
+		</li>
+	</ul>
 </div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2020-12-19T07:08:19&#43;09:00">2020-12-19</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/vscode/" rel="category">VSCode</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		1. 서론. (Visual Studio Code = VSCode)
-1-1. VSCode 사용 전. 개발툴은 다양합니다. 저는 툴을 잘 다루지 못해서, 타겟 플랫폼 또는 언어에 최적화 되어 있고 추가 설정 필요 없는 IDE가 좋습니다. 하지만, Go 언어 개발용 LiteIDE를 제외하고는 점점 무거워지고, Mac/Linux/Windows 사용 중이라 OS에 따라 성능 차이가 심하게 나는 점 때문에 다른 툴이 없나 계속 찾아보곤 했죠.
-1-2. VSCode 사용 계기. 그러다 GitHub에서 만든 Atom 에디터를 접했는데, 단순 에디터로 사용하기 편한 UI로 되어 있어 간단한 텍스트 편집용으로 종종 사용해 보다가, 느린 속도와 개발용으로는 별도 설정을 해주어야 해서 사용하지 않았습니다.
-	</div>
-</article>
+		</footer>
+	</article>
 </main>
+
+<div class="authorbox clearfix">
+	<div class="authorbox__header">
+		<span class="authorbox__name">About hsg</span>
+	</div>
+	<div class="authorbox__description">
+		업무로 이것저것 개발합니다. 취미도 이것저것 내키는대로 합니다. 안할 때도 있고요.
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/8/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Docker 설치</p>
+		</a>
+	</div>
+</nav>
 
 
 			</div>
-			
-<aside class="sidebar"><div class="widget-search widget">
+			<aside class="sidebar"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
 		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
 		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="https://hsgpublic.github.io/">
+		<input type="hidden" name="sitesearch" value="http://localhost:1313/">
 	</form>
 </div>
 <div class="widget-recent widget">
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/9/">Gitea on Docker</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/8/">Docker 설치</a></li>
 			<li class="widget__item"><a class="widget__link" href="/projects/2/1/">근거리 채팅 앱 개발</a></li>
 			<li class="widget__item"><a class="widget__link" href="/projects/1/1/">게시판 설계부터 개발까지</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/7/">Dart 웹 서버 프로젝트 생성</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/6/">Flutter &#43; Dart 설치 및  VSCode 설정</a></li>
 		</ul>
 	</div>
 </div>
@@ -188,6 +183,7 @@ if (!doNotTrack) {
 		<a class="widget-taglist__link widget__link btn" href="/tags/dart/" title="Dart">Dart</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/echo-framework/" title="Echo Framework">Echo Framework</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/flutter/" title="Flutter">Flutter</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gitea/" title="Gitea">Gitea</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/go/" title="Go">Go</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/java/" title="Java">Java</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/spring-framework/" title="Spring Framework">Spring Framework</a>
@@ -226,5 +222,7 @@ if (!doNotTrack) {
 </footer>
 	</div>
 <script async defer src="/js/menu.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 </body>
 </html>

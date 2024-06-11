@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hsgpublic.github.io/</loc>
+    <lastmod>2024-06-10T17:15:11+09:00</lastmod>
+  </url><url>
+    <loc>https://hsgpublic.github.io/posts/</loc>
+    <lastmod>2024-06-10T17:15:11+09:00</lastmod>
+  </url><url>
     <loc>https://hsgpublic.github.io/categories/</loc>
     <lastmod>2024-05-26T09:29:27+09:00</lastmod>
   </url><url>
@@ -9,12 +15,6 @@
     <lastmod>2024-05-26T09:29:27+09:00</lastmod>
   </url><url>
     <loc>https://hsgpublic.github.io/posts/8/</loc>
-    <lastmod>2024-05-26T09:29:27+09:00</lastmod>
-  </url><url>
-    <loc>https://hsgpublic.github.io/</loc>
-    <lastmod>2024-05-26T09:29:27+09:00</lastmod>
-  </url><url>
-    <loc>https://hsgpublic.github.io/posts/</loc>
     <lastmod>2024-05-26T09:29:27+09:00</lastmod>
   </url><url>
     <loc>https://hsgpublic.github.io/tags/</loc>

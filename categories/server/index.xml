@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Server on hsg 개발로그</title>
+    <title>Server on hsg의 IT 로그</title>
     <link>https://hsgpublic.github.io/categories/server/</link>
-    <description>Recent content in Server on hsg 개발로그</description>
+    <description>Recent content in Server on hsg의 IT 로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <managingEditor>hsgpublic@gmail.com (hsg)</managingEditor>
