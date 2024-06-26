@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hsgpublic.github.io/categories/</loc>
+    <lastmod>2024-06-10T17:15:11+09:00</lastmod>
+  </url><url>
+    <loc>https://hsgpublic.github.io/categories/docker/</loc>
+    <lastmod>2024-06-10T17:15:11+09:00</lastmod>
+  </url><url>
+    <loc>https://hsgpublic.github.io/tags/gitea/</loc>
+    <lastmod>2024-06-10T17:15:11+09:00</lastmod>
+  </url><url>
+    <loc>https://hsgpublic.github.io/posts/9/</loc>
+    <lastmod>2024-06-10T17:15:11+09:00</lastmod>
+  </url><url>
     <loc>https://hsgpublic.github.io/</loc>
     <lastmod>2024-06-10T17:15:11+09:00</lastmod>
   </url><url>
     <loc>https://hsgpublic.github.io/posts/</loc>
     <lastmod>2024-06-10T17:15:11+09:00</lastmod>
   </url><url>
-    <loc>https://hsgpublic.github.io/categories/</loc>
-    <lastmod>2024-05-26T09:29:27+09:00</lastmod>
-  </url><url>
-    <loc>https://hsgpublic.github.io/categories/docker/</loc>
-    <lastmod>2024-05-26T09:29:27+09:00</lastmod>
-  </url><url>
-    <loc>https://hsgpublic.github.io/posts/8/</loc>
-    <lastmod>2024-05-26T09:29:27+09:00</lastmod>
-  </url><url>
     <loc>https://hsgpublic.github.io/tags/</loc>
-    <lastmod>2024-05-26T09:29:27+09:00</lastmod>
+    <lastmod>2024-06-10T17:15:11+09:00</lastmod>
   </url><url>
     <loc>https://hsgpublic.github.io/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</loc>
+    <lastmod>2024-06-10T17:15:11+09:00</lastmod>
+  </url><url>
+    <loc>https://hsgpublic.github.io/posts/8/</loc>
     <lastmod>2024-05-26T09:29:27+09:00</lastmod>
   </url><url>
     <loc>https://hsgpublic.github.io/projects/</loc>

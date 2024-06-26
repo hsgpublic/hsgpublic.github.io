@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gitea on hsg의 IT 로그</title>
-    <link>http://localhost:1313/tags/gitea/</link>
+    <link>https://hsgpublic.github.io/tags/gitea/</link>
     <description>Recent content in Gitea on hsg의 IT 로그</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ko-kr</language>
     <managingEditor>hsgpublic@gmail.com (hsg)</managingEditor>
     <webMaster>hsgpublic@gmail.com (hsg)</webMaster>
     <lastBuildDate>Mon, 10 Jun 2024 17:15:11 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gitea/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hsgpublic.github.io/tags/gitea/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gitea on Docker</title>
-      <link>http://localhost:1313/posts/9/</link>
+      <link>https://hsgpublic.github.io/posts/9/</link>
       <pubDate>Mon, 10 Jun 2024 17:15:11 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
-      <guid>http://localhost:1313/posts/9/</guid>
-      <description>1. 서론. 2. Gitea on Docker. </description>
+      <guid>https://hsgpublic.github.io/posts/9/</guid>
+      <description>1. 서론. 파일의 변경 이력을 남겨야 하는 경우가 있습니다. 특히 IT 분야에서는 이슈 발생 시 이력을 확인해서 대응하는 일이 기본입니다. 누가 변경했는지도 확인되므로 해당 담당자를 통해 빠르게 처리 가능하고요. 여러 툴들이 있지만 현재 Git이 주로 사용되며, Git에 대한 설명은 Git Book에 잘 정리되어 있습니다. 리눅스를 개발한 리누스 토발즈가 소스코드 관리 툴인 BitKeeper를 이용하다가 문제가 발생해 별도로 단기간에 만들었다고 하죠(해당 인터뷰).&#xA;이후 여러 서비스들이 생겨났고, GitHub과 GitLab이 주로 사용됩니다. 초기에 GitHub은 Git의 기능과 이슈 커뮤니케이션에 초점을 둔 반면 GitLab은 CI/CD까지 포함한 프로젝트 통합 관리 서비스 성격이 강했지만, 여러 기능들이 추가되고 발전하면서 그러한 성격이 많이 희석되었습니다.</description>
     </item>
   </channel>
 </rss>
