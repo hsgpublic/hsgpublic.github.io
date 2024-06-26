@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Server on hsg의 IT 로그</title>
+    <link>http://localhost:1313/tags/code-server/</link>
+    <description>Recent content in Code Server on hsg의 IT 로그</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <managingEditor>hsgpublic@gmail.com (hsg)</managingEditor>
+    <webMaster>hsgpublic@gmail.com (hsg)</webMaster>
+    <lastBuildDate>Thu, 27 Jun 2024 08:24:07 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/code-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code server on Docker</title>
+      <link>http://localhost:1313/posts/10/</link>
+      <pubDate>Thu, 27 Jun 2024 08:24:07 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>http://localhost:1313/posts/10/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
