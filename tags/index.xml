@@ -8,13 +8,13 @@
     <language>ko-kr</language>
     <managingEditor>hsgpublic@gmail.com (hsg)</managingEditor>
     <webMaster>hsgpublic@gmail.com (hsg)</webMaster>
-    <lastBuildDate>Mon, 10 Jun 2024 17:15:11 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2024 08:24:07 +0900</lastBuildDate>
     <atom:link href="https://hsgpublic.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gitea</title>
-      <link>https://hsgpublic.github.io/tags/gitea/</link>
+      <title>Code Server</title>
+      <link>https://hsgpublic.github.io/tags/code-server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hsgpublic@gmail.com (hsg)</author>
-      <guid>https://hsgpublic.github.io/tags/gitea/</guid>
+      <guid>https://hsgpublic.github.io/tags/code-server/</guid>
       <description></description>
     </item>
     <item>
@@ -22,6 +22,13 @@
       <link>https://hsgpublic.github.io/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hsgpublic@gmail.com (hsg)</author>
       <guid>https://hsgpublic.github.io/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gitea</title>
+      <link>https://hsgpublic.github.io/tags/gitea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/tags/gitea/</guid>
       <description></description>
     </item>
     <item>

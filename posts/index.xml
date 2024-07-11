@@ -8,8 +8,15 @@
     <language>ko-kr</language>
     <managingEditor>hsgpublic@gmail.com (hsg)</managingEditor>
     <webMaster>hsgpublic@gmail.com (hsg)</webMaster>
-    <lastBuildDate>Mon, 10 Jun 2024 17:15:11 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2024 08:24:07 +0900</lastBuildDate>
     <atom:link href="https://hsgpublic.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code server on Docker</title>
+      <link>https://hsgpublic.github.io/posts/10/</link>
+      <pubDate>Thu, 27 Jun 2024 08:24:07 +0900</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/posts/10/</guid>
+      <description>1. 서론. 에디터로 VSCode를 주로 사용합니다. 고정된 장소에서는 데스크탑이나 랩탑 환경에서 VSCode로 개발 또는 문서 작성을 하지만, 이동 중 아이패드에서는 사용할 수 없어 불편합니다. 아이패드용 VSCode 앱이 없기 때문이죠. 그렇다고 방법이 없는 것은 아닙니다. 웹 브라우저로 접속해 이용할 수 있도록 기능을 제공하니까요. https://vscode.dev 에 접속해 사용 가능하지만 터미널 등의 기능에 제약이 있어서, 개인 서버에 설치해 사용하는 몇가지 방법을 알아봅니다.&#xA;2. Code CLI. 문서: Command Line Interface (CLI) VSCode를 설치하면 CLI도 함께 설치되며, CLI만 설치하는 것도 가능합니다.</description>
+    </item>
     <item>
       <title>Gitea on Docker</title>
       <link>https://hsgpublic.github.io/posts/9/</link>

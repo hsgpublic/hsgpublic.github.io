@@ -16,7 +16,7 @@
 		
   <meta itemprop="name" content="환경설정">
   <meta itemprop="description" content="hsg의 IT 로그">
-  <meta itemprop="dateModified" content="2024-06-10T17:15:11+09:00">
+  <meta itemprop="dateModified" content="2024-06-27T08:24:07+09:00">
 		
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="환경설정">
@@ -113,6 +113,26 @@
 	<header class="main__header">
 		<h1 class="main__title">환경설정</h1>
 	</header><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/10/" rel="bookmark">
+			Code server on Docker
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">hsg</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2024-06-27T08:24:07&#43;09:00">2024-06-27</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/docker/" rel="category">Docker</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		1. 서론. 에디터로 VSCode를 주로 사용합니다. 고정된 장소에서는 데스크탑이나 랩탑 환경에서 VSCode로 개발 또는 문서 작성을 하지만, 이동 중 아이패드에서는 사용할 수 없어 불편합니다. 아이패드용 VSCode 앱이 없기 때문이죠. 그렇다고 방법이 없는 것은 아닙니다. 웹 브라우저로 접속해 이용할 수 있도록 기능을 제공하니까요. https://vscode.dev 에 접속해 사용 가능하지만 터미널 등의 기능에 제약이 있어서, 개인 서버에 설치해 사용하는 몇가지 방법을 알아봅니다.
+2. Code CLI. 문서: Command Line Interface (CLI) VSCode를 설치하면 CLI도 함께 설치되며, CLI만 설치하는 것도 가능합니다.
+	</div>
+</article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
@@ -318,11 +338,11 @@ $ snap install openjdk 2. VSCode 설정.
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/10/">Code server on Docker</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/9/">Gitea on Docker</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/8/">Docker 설치</a></li>
 			<li class="widget__item"><a class="widget__link" href="/projects/2/1/">근거리 채팅 앱 개발</a></li>
 			<li class="widget__item"><a class="widget__link" href="/projects/1/1/">게시판 설계부터 개발까지</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/7/">Dart 웹 서버 프로젝트 생성</a></li>
 		</ul>
 	</div>
 </div>
@@ -348,6 +368,7 @@ $ snap install openjdk 2. VSCode 설정.
 <div class="widget-taglist widget">
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/code-server/" title="Code Server">Code Server</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dart/" title="Dart">Dart</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/echo-framework/" title="Echo Framework">Echo Framework</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/flutter/" title="Flutter">Flutter</a>

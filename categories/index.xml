@@ -8,13 +8,20 @@
     <language>ko-kr</language>
     <managingEditor>hsgpublic@gmail.com (hsg)</managingEditor>
     <webMaster>hsgpublic@gmail.com (hsg)</webMaster>
-    <lastBuildDate>Mon, 10 Jun 2024 17:15:11 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2024 08:24:07 +0900</lastBuildDate>
     <atom:link href="https://hsgpublic.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker</title>
       <link>https://hsgpublic.github.io/categories/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hsgpublic@gmail.com (hsg)</author>
       <guid>https://hsgpublic.github.io/categories/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visual Studio Code (VSCode)</title>
+      <link>https://hsgpublic.github.io/categories/visual-studio-code-vscode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hsgpublic@gmail.com (hsg)</author>
+      <guid>https://hsgpublic.github.io/categories/visual-studio-code-vscode/</guid>
       <description></description>
     </item>
     <item>
@@ -36,13 +43,6 @@
       <link>https://hsgpublic.github.io/categories/server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hsgpublic@gmail.com (hsg)</author>
       <guid>https://hsgpublic.github.io/categories/server/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Visual Studio Code (VSCode)</title>
-      <link>https://hsgpublic.github.io/categories/visual-studio-code-vscode/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hsgpublic@gmail.com (hsg)</author>
-      <guid>https://hsgpublic.github.io/categories/visual-studio-code-vscode/</guid>
       <description></description>
     </item>
     <item>
